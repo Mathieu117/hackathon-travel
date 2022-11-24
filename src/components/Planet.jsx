@@ -7,8 +7,6 @@ const Planet = () => {
             <div className='Planete'>
                 <div className='Terre'>
                     <div className='avion'>
-                        
-
                     </div> 
                 </div>
             </div>
