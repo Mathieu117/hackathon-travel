@@ -11,6 +11,7 @@ const Footer = () => {
         <BrowserRouter>
         <Routes>
             <Route  path="/Contactus" element={<Contactus/>}/>
+            
         </Routes>
         <div className='footer'>
             <div className='list'>
@@ -20,7 +21,7 @@ const Footer = () => {
                 <li className='li-contact'>Adresse: 4 rue Barron Nantes 44000</li>
                 </ul>
 
-                <Link  component={Contactus}to="/Contactus" className='link'>Envoyer un message</Link>
+                <Link  component={Contactus}to="/Contactus" ><button className='link'>Envoyer un message</button></Link>
 
                 <ul className='reseaux'><h3>Nos réseaux</h3>
                 <div className='allimg'> 
