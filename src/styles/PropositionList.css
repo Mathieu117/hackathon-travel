@@ -4,7 +4,8 @@
     border-radius: 20px;
     
 }
-.choice{
+.choice {
+    margin-top: 50px;
     display: flex;
     flex-wrap: wrap;
     gap: 40px;
@@ -15,8 +16,13 @@
     width: 250px;
     height: 350px;
     border-radius: 20px;
-    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 10px;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.card:hover {
+ transform: scale(1.1) ;
+ pointer-events: auto ;
 }
