@@ -1,10 +1,13 @@
 import "./App.css";
-import Proposition from "./components/Proposition";
+import Homepage from "./components/Homepage";
+/*import Proposition from "./components/Proposition";*/
+import Card from "./components/Card";
 
 function App() {
   return (
     <div className="App">
-      <Proposition />
+      <Card />
+      <Homepage />
     </div>
   );
 }
