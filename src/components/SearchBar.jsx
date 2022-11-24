@@ -1,30 +1,27 @@
 import React from 'react';
-import {useState, useEffect} from 'react'
-import 
+import {useState} from 'react';
+import array from './BaseDonnées';
+import Search from './Search';
 
-const SearchBar = () => {
-
-const [datas, setDatas] = useState([]);
-
-
-
+function SearchBar() {
+    const [searchValue, setSearchValue] = useState ("");
+    
     return (
-        <>
-        <div className ="search">
+        <div>
+            <Search setSearchValue = {setSearchValue} searchValue = {setSearchValue} />
+            {array.map((e)=>{
+                return(
+                    <div>
+                        <img src= {e.affiche} alt="affiche"/>
+                        
+                    </div>
+                )
 
-            <input 
-            type ="text"
-            name ="searchBar" 
-            id ="searchBar" 
-            placeholder ="Rechercher"/>
+            })}
+
+            
         </div>
-        <div className ="searchResults">
-            <div className="searchResult">
-                Données
-            </div>
-        </div>
-        </>
     );
-};
+}
 
 export default SearchBar;
