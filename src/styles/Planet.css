@@ -1,3 +1,7 @@
+.galaxy{
+    background-image: url(./agence-voyage-insolite.jpg);
+}
+
 .Planete{
     display: flex;
     justify-content: center;
@@ -8,18 +12,23 @@
 
 .Terre{
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 48%;
     transform:rotate(23deg) translate(-50%, -50%);
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    background-image: url(./planet-observer_POTCMO.jpg);
+    background-image: url(./depositphotos_282704904-stock-illustration-worldmap-with-airplane-trace-vector.jpg);
     background-size: cover;
     background-repeat: repeat-x;
-    animation: animateTerre 40s linear infinite;
+    animation: animateTerre 30s linear infinite;
     box-shadow: inset 30px -4px 15px 5px rgba(0, 0, 0, 0.653);
     
+}
+
+.Terre:hover{
+    transform: scale(1.2);
+    transition: all 0.5s ease-in-out;
 }
 
 @keyframes animateTerre

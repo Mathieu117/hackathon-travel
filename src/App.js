@@ -1,5 +1,4 @@
 import "./App.css";
-import Proposition from "./components/Proposition";
 import Header from "./components/Header";
 import Planet from "./components/Planet";
 import { Routes, Route } from "react-router-dom";
@@ -13,7 +12,7 @@ function App() {
 
       <Header />
       <Planet />
-      <Proposition />
+      
 
       <PropositionList />
 
