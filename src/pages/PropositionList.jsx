@@ -19,9 +19,9 @@ const PropositionList = () => {
                 return <div className='card'><img src={e.affiche} alt="affiche" /></div>
                 
             })}
-            <Popup trigger={<button> Trigger</button>} position="right center">
+            {/* <Popup trigger={<button> Trigger</button>} position="right center">
     <div>Popup content here !!</div>
-  </Popup>
+  </Popup> */}
         </div>
     );
 };
