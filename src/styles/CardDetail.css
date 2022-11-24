@@ -1,6 +1,8 @@
+*{
+    font-family: monospace;
+}
+
 .cardDetail {
-    height: auto;
-    background-color: transparent;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -9,48 +11,46 @@
     right: 0;
     bottom: 0;
     position: fixed;
-    z-index: 100;
-    width: 100%;
-    backdrop-filter: blur(3px);
+    backdrop-filter: blur(5px);
+    background-color: rgba(0, 0, 0, 0.166);
 }
 
 .content {
+    display: flex;
     background-color: aliceblue;
     border-radius: 20px;
-    border: solid 1px;
     width: 80vw;
     height: 80vh;
-    display:flex;
-    justify-content: space-between;
+    
 }
 
 .contentLeft {
-    flex: 0.7;
-    height: 100%;
+    width: 570px;
 }
 
 .content-right {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    flex:1;
-    padding: 0 0 1rem 1rem;
-    height: 100%;
-
+    flex: 1;
 
 }
 
 .title h2 {
+    color: rgb(0, 0, 0);
     font-size: 4rem;
-    text-align: center;
+    
 }
 
 .country h3 {
+    display: flex;
+    justify-content: flex-end;
+    color: rgb(0, 0, 0);
     font-size: 3rem;
 }
 
-.city {
+.city h3{
+
+    color: black;
     font-size: 2rem;
 }
 
@@ -62,5 +62,8 @@
 }
 
 .closeButton {
+    display: flex;
+    height: 10px;
+    justify-content: flex-end;
     padding: 10px;
 }
