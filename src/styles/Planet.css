@@ -1,5 +1,5 @@
 .galaxy{
-    background-image: url(./agence-voyage-insolite.jpg);
+    background-image: url(../images/agence-voyage-insolite.jpg);
     background-position: center;
 }
 
@@ -19,7 +19,7 @@
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    background-image: url(./depositphotos_282704904-stock-illustration-worldmap-with-airplane-trace-vector.jpg);
+    background-image: url(../images/depositphotos_282704904-stock-illustration-worldmap-with-airplane-trace-vector.jpg);
     background-size: cover;
     background-repeat: repeat-x;
     animation: animateTerre 30s linear infinite;
