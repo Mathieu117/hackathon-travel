@@ -1,10 +1,12 @@
 import "./App.css";
 import Proposition from "./components/Proposition";
+import SearchBar from "./components/SearchBar";
 
 function App() {
   return (
     <div className="App">
-      <Proposition />
+      <SearchBar/>
+      {/* <Proposition /> */}
     </div>
   );
 }
