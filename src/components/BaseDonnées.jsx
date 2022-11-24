@@ -1,7 +1,4 @@
-import React from 'react';
-import "../styles/Card.css";
-
-const array = [
+const array= [
 
     {id : 1,
     country : 'Espagne',
@@ -112,7 +109,7 @@ const array = [
     country : 'USA',
     city : 'Pasadena',
     serie : 'The Big Bang Theory',
-    affiche : 'https://cdn.shopify.com/s/files/1/0969/9128/products/The_big_bang_theory_-_massive_bangers_2e70fcc9-2153-434d-9473-359c220748ed.jpg?v=1514028789',
+    affiche : 'https://static.posters.cz/image/1300/art-photo/the-big-bang-theory-equipe-i106240.jpg',
     airbnb : 'https://www.airbnb.fr/s/Pasadena/homes' },
     
     {id : 17,
@@ -185,30 +182,5 @@ const array = [
     affiche : 'https://fr.web.img6.acsta.net/pictures/22/09/12/09/51/0326456.jpg',
     airbnb : 'https://www.airbnb.fr/s/Glasgow/homes' }
     ]
-    
-    const Proposition = () => {
-        return (
-            <div className='choice'>
-                <ul>{array.map((e) => {
-                    return <li><img src={e.affiche} alt="affiche" /></li>
-                })}</ul>
-            </div>
-        );
-    };
-    
-const Card = () => {
-    return (
-        <div className='card'>
-            <div className='content'>
-            <div className='content-right'>
-                <div className='title'><h2>{array[1].serie}</h2></div> 
-                <div className='country'><h3>{array[1].country}</h3></div> 
-                <div className='city'><h3>{array[1].city}</h3></div> 
-                <div className='airbnb'>{array[1].airbnb}</div>
-            </div>
-            </div>
-         </div>
-    );
-};
 
-export default Card;
+    export default array

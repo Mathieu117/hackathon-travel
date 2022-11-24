@@ -187,14 +187,13 @@ affiche : 'https://fr.web.img6.acsta.net/pictures/22/09/12/09/51/0326456.jpg',
 airbnb : 'https://www.airbnb.fr/s/Glasgow/homes' }
 ]
 
-const Proposition = () => {
+const PropositionDetails = () => {
+    
     return (
-        <div className='choice'>
-            <ul>{array.map((e) => {
-                return <li><img src={e.affiche} alt="affiche" /></li>
-            })}</ul>
+        <div >
+
         </div>
     );
 };
 
-export default Proposition;
+export default PropositionDetails;

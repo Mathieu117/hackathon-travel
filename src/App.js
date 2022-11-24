@@ -1,13 +1,16 @@
 import "./App.css";
 import Homepage from "./components/Homepage";
-/*import Proposition from "./components/Proposition";*/
-import Card from "./components/Card";
+import CardDetail from "./components/CardDetail";
+import { Routes, Route } from "react-router-dom";
+import PropositionList from "./pages/PropositionList";
 
 function App() {
   return (
     <div className="App">
-      <Card />
-      <Homepage />
+      <PropositionList />
+      {/* <Routes>
+        <Route path="/proposition/:id" element={<Proposition />} />
+      </Routes> */}
     </div>
   );
 }

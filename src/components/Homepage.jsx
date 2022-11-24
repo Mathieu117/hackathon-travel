@@ -7,7 +7,7 @@ const Homepage = () => {
     <div className='header'>HEADER</div>
         <div className="main">
             <div className='menu'>MENU</div>
-            <div className="cards">CARDS</div>
+            <div className="cards">CARD</div>
         </div>
     <div className='footer'>FOOTER</div>
 </div>
