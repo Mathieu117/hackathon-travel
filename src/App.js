@@ -9,7 +9,9 @@ function App() {
 
   return (
     <div className="App">
-      <Proposition />
+      <Header/>
+      <Planet/>
+      <PropositionList/>
     </div>
   );
 
