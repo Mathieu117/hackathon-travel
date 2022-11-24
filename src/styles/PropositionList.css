@@ -12,7 +12,7 @@
     align-items: center;
     justify-content: center;
 }
-.card {
+.choice .card {
     width: 250px;
     height: 350px;
     border-radius: 20px;
@@ -22,7 +22,9 @@
     justify-content: center;
 }
 
-.card:hover {
+.choice .card:hover {
  transform: scale(1.1) ;
  pointer-events: auto ;
+ cursor:pointer;
+ transition-duration: 1.5s;
 }
