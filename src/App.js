@@ -1,10 +1,16 @@
 import "./App.css";
-import Proposition from "./components/Proposition";
+
+import { Routes, Route } from "react-router-dom";
+import PropositionList from "./pages/PropositionList";
 
 function App() {
   return (
     <div className="App">
-      <Proposition />
+      <PropositionList />
+
+      {/* <Routes>
+        <Route path="/proposition/:id" element={<Proposition />} />
+      </Routes> */}
     </div>
   );
 }
