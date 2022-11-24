@@ -1,5 +1,6 @@
 .galaxy{
     background-image: url(./agence-voyage-insolite.jpg);
+    background-position: center;
 }
 
 .Planete{
@@ -13,7 +14,7 @@
 .Terre{
     position: absolute;
     top: 40%;
-    left: 48%;
+    left: 46%;
     transform:rotate(23deg) translate(-50%, -50%);
     width: 200px;
     height: 200px;

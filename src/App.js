@@ -3,6 +3,8 @@ import Header from "./components/Header";
 import Planet from "./components/Planet";
 import { Routes, Route } from "react-router-dom";
 import PropositionList from "./pages/PropositionList";
+import Footer from "./components/Footer";
+
 
 
 function App() {
@@ -12,13 +14,8 @@ function App() {
 
       <Header />
       <Planet />
-      
-
       <PropositionList />
-
-      {/* <Routes>
-        <Route path="/proposition/:id" element={<Proposition />} />
-      </Routes> */}
+      <Footer />
 
     </div>
   );
