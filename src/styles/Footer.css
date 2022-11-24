@@ -1,0 +1,98 @@
+.footer{
+    background: linear-gradient(45deg, rgba(60,89,175,1) 0%, rgba(53,84,176,1) 18%, rgba(40,71,159,1) 68%, rgba(40,79,198,1) 100%); 
+    margin-top: 60px;
+    bottom: 0;
+}
+h3{
+color: white;
+}
+
+ul{
+    width: 100%;
+}
+.list {
+    margin: 5px;
+    Display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: center;
+    gap: 20%;
+    color: white;
+    
+}
+
+.img-reseaux{
+    width: 50px;
+   border-radius:4px;
+  margin-left: 14%;
+    
+}
+
+.contact, .reseaux, .suggestions{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.li-contact {
+    Display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 20%;
+    margin-top: 5px;
+}
+
+.reseaux {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.allimg{
+display: flex;
+flex-direction: row;
+}
+.input{
+    height: 70px;
+    width: 70%;
+    margin-left: 80px;
+}
+
+.link{
+    border-radius: 5px;
+    background-color: white;
+    margin: 20px;
+    width: 100%;
+    
+}
+
+.form {
+    border: 1px solid black;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 33%;
+    gap: 6px;
+    margin-top: 60px;
+    
+}
+
+.twobutton{
+    display: flex;
+    justify-content: center;
+    margin: 8px;
+}
+.form-group{
+    display: flex;
+    justify-content: center;
+    gap:5px;
+    margin: 8px;
+}
+.send{
+    color: green;
+}
+
+.back{
+    color: red;
+}

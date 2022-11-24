@@ -13,12 +13,12 @@
 .Terre{
     position: absolute;
     top: 40%;
-    left: 48%;
+    left: 46%;
     transform:rotate(23deg) translate(-50%, -50%);
     width: 80px;
     height: 80px;
     border-radius: 50%;
-    background-image: url(./depositphotos_282704904-stock-illustration-worldmap-with-airplane-trace-vector.jpg);
+    background-image: url(../images/depositphotos_282704904-stock-illustration-worldmap-with-airplane-trace-vector.jpg);
     background-size: cover;
     background-repeat: repeat-x;
     animation: animateTerre 30s linear infinite;
