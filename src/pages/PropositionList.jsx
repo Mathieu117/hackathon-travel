@@ -7,11 +7,11 @@ const PropositionList = () => {
     return (
         <div className='choice'>
             {array.map((e) => {
-                return <div className='card'><img src={e.affiche} alt="affiche" /></div>
-            })}
-            <Popup trigger={<button> Trigger</button>} position="right center">
+                return <div className='card'><Popup trigger={<img src={e.affiche} alt="affiche" />} position="center">
     <div>Popup content here !!</div>
-  </Popup>
+  </Popup></div>
+            })}
+            
         </div>
     );
 };
