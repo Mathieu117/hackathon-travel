@@ -1,8 +1,14 @@
 .galaxy{
-    background-image: url(../images/cinema-2.jpg);
-    background-position: center;
-    
+    background-image: url(../images/interieur-du-salon-canape-tv-appartement_107791-3226.webp);
+    background-position: cente;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
 }
+.galaxy img{
+    height: 65px;
+}
+
 
 .Planete{
     display: flex;
@@ -14,11 +20,11 @@
 
 .Terre{
     position: absolute;
-    top: 10%;
-    left: 42%;
-    width: 250px;
+    top: 5%;
+    left: 45%;
+    width: 200px;
     transform: rotate(23deg);
-    height: 250px;
+    height: 200px;
     border-radius: 50%;
     background-image: url(../images/depositphotos_282704904-stock-illustration-worldmap-with-airplane-trace-vector.jpg);
     background-size: cover;
@@ -28,7 +34,8 @@
 }
 
 .Terre:hover{
-    transform: scale(1.4) ;
+    margin-top: 10%;
+    transform: scale(3.4) ;
     transition: all 0.5s ease-in-out;
 }
 

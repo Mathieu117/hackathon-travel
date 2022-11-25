@@ -1,7 +1,12 @@
 .navBar{
-    background-color: rgb(52, 52, 52);
+    background-color: rgb(203, 203, 203);
     height: 70px;
     display: flex;
-    
     font-family: monospace;
+}
+
+.navBar h1{
+    display: flex;
+    align-items: center;
+    margin-left: 33%;
 }
