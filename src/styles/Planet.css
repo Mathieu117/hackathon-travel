@@ -27,12 +27,13 @@
 } 
 
 .Terre{
+    margin-top: 15px;
     position: absolute;
     top: 5%;
     left: 45%;
-    width: 200px;
+    width: 150px;
     transform: rotate(23deg);
-    height: 200px;
+    height: 150px;
     border-radius: 50%;
     background-image: url(../images/depositphotos_282704904-stock-illustration-worldmap-with-airplane-trace-vector.jpg);
     background-size: cover;
@@ -41,11 +42,7 @@
     box-shadow: inset 30px -4px 15px 5px rgba(0, 0, 0, 0.653);
 }
 
-.Terre:hover{
-    margin-top: 10%;
-    transform: scale(3.4) ;
-    transition: all 0.5s ease-in-out;
-} */
+
 
 @keyframes animateTerre
 {

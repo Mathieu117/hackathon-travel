@@ -11,12 +11,11 @@
     gap: 40px;
     align-items: center;
     justify-content: center;
-background-image: url('');    
-background-size: cover;
-}
+    background: rgb(118,220,255);
+    background: linear-gradient(0deg, rgba(118,220,255,1) 0%, rgba(29,176,238,1) 55%, rgba(41,102,168,0.8326681014202556) 100%);}
 .choice .card {
-    width: 250px;
-    height: 350px;
+    width: 200px;
+    height: 300px;
     border-radius: 20px;
     margin: 1%;
     box-shadow: rgba(0, 0, 0, 0.56) 11px 6px 19px 8px;
