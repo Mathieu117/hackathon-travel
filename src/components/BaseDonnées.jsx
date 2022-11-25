@@ -9,7 +9,7 @@ const array= [
     airbnb : 'https://www.airbnb.fr/s/Madrid/homes' },
     
     {id : 2,
-    country : 'Nouveau-Mexique',
+    country : 'USA',
     city : 'Albuquerque',
     pic : 'https://www.moi-voyageuse.com/IMG/jpg/albuquerque-old-town-10.jpg',
     serie : 'Breaking Bad',

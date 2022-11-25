@@ -42,15 +42,15 @@
     justify-content: space-between;
     align-items: center;
     flex: 1;
-    margin: 1rem;
+    margin: 1px;
+   
 }
 
 .title h2 {
     color: aliceblue;
     text-align: center;
-
     font-size: 4rem;
-    padding: 1rem;
+    padding: 1px;
 
 }
 
