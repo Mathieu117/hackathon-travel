@@ -1,16 +1,10 @@
-.galaxy{
-    background-image: url(../images/cinema-2.jpg);
-    background-position: center;
-    
-}
 
 .Planete{
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 60vh;
     transform-style: preserve-3d;
-}
+} 
 
 .Terre{
     position: absolute;
@@ -25,12 +19,14 @@
     background-repeat: repeat-x;
     animation: animateTerre 30s linear infinite;
     box-shadow: inset 30px -4px 15px 5px rgba(0, 0, 0, 0.653);
+    filter: grayscale(20%) brightness(86%) saturate(195%);
+    
 }
 
-.Terre:hover{
-    transform: scale(1.4) ;
+/* .Terre:hover{
+    transform: scale(1.2);
     transition: all 0.5s ease-in-out;
-}
+} */
 
 @keyframes animateTerre
 {
