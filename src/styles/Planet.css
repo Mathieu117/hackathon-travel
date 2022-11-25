@@ -14,8 +14,10 @@
 }
 
 .titre h1{
+    
+    font-size: 70px;
     display: flex;
-    margin-top: 3%;
+    margin-top: 1%;
     justify-content: center;
     color: beige;
     font-family: 'Dancing Script', cursive;
