@@ -1,28 +1,34 @@
 import React from 'react';
 import "../styles/PropositionList.css"
 import array from '../components/BaseDonnées'
-import Search from '../components/Search'
+import Popup from 'reactjs-popup'; 
 import { useState } from 'react';
-
+import Search from '../components/Search';
+import CardDetail from '../components/CardDetail'
 const PropositionList = () => {
     const [searchValue, setSearchValue] = useState ("")
     
+    const [open, setOpen] = useState()
+
+    const openPopUp = (index) => {
+        console.log("clicked")
+        setOpen(array[index])
+    }
+
     return (
+    <div> 
         <div className='choice'>
-            <Search searchValue={searchValue} setSearchValue={setSearchValue} />
-            
-            {array.filter((e) => {
-                return e.serie.toLocaleLowerCase().includes(searchValue.toLocaleLowerCase())
-            })
-            
-            .map((e) => {
-                return <div className='card'><img src={e.affiche} alt="affiche" /></div>
-                
+           <span ><Search searchValue={searchValue} setSearchValue={setSearchValue} /></span>
+            {array
+            .filter((e) => {
+             return e.serie.toLocaleLowerCase().includes(searchValue.toLocaleLowerCase())
+})
+            .map((e,index) => {
+                return <div className='card' onClick={() => openPopUp(index)}><img src={e.affiche} alt="affiche" /></div>
             })}
-            {/* <Popup trigger={<button> Trigger</button>} position="right center">
-    <div>Popup content here !!</div>
-  </Popup> */}
+            {open ? <CardDetail item={open} onClose={()=> setOpen(null)} /> : null}
         </div>
+     </div>
     );
 };
 
