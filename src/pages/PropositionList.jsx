@@ -10,7 +10,6 @@ const PropositionList = () => {
     const [open, setOpen] = useState()
 
     const openPopUp = (index) => {
-        console.log("clicked")
         setOpen(array[index])
     }
 
