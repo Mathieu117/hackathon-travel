@@ -22,7 +22,6 @@ function App() {
         <Route path="/proposition/:id" element={<Proposition />} />
       </Routes> */}
 
->>>>>>>>> Temporary merge branch 2
     </div>
   );
 }
