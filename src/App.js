@@ -21,6 +21,7 @@ function App() {
         <Route path="/proposition/:id" element={<Proposition />} />
       </Routes> */}
 <Footer/>
+      <Footer />
     </div>
   );
 }
