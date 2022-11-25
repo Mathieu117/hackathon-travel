@@ -1,3 +1,23 @@
+.galaxy{
+    background-image: url(../images/interieur-du-salon-canape-tv-appartement_107791-3226.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+}
+.galaxy img{
+    height: 65px;
+}
+
+.bar{
+    display: flex;
+    font-family: 'Dancing Script', cursive;
+}
+ 
+.bar h1{
+    color: white;
+    margin-top: 1%;
+    margin-left: 30%;
+}
 
 .Planete{
     display: flex;
@@ -8,10 +28,10 @@
 
 .Terre{
     position: absolute;
-    top: 40%;
-    left: 46%;
-    transform:rotate(23deg) translate(-50%, -50%);
+    top: 5%;
+    left: 45%;
     width: 200px;
+    transform: rotate(23deg);
     height: 200px;
     border-radius: 50%;
     background-image: url(../images/depositphotos_282704904-stock-illustration-worldmap-with-airplane-trace-vector.jpg);
@@ -19,12 +39,11 @@
     background-repeat: repeat-x;
     animation: animateTerre 30s linear infinite;
     box-shadow: inset 30px -4px 15px 5px rgba(0, 0, 0, 0.653);
-    filter: grayscale(20%) brightness(86%) saturate(195%);
-    
 }
 
-/* .Terre:hover{
-    transform: scale(1.2);
+.Terre:hover{
+    margin-top: 10%;
+    transform: scale(3.4) ;
     transition: all 0.5s ease-in-out;
 } */
 

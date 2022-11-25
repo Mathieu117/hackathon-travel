@@ -1,8 +1,6 @@
 .navBar{
-    background-color: rgb(20, 188, 221);
-    height: 120px;
+    background-color: rgb(203, 203, 203);
+    height: 70px;
     display: flex;
-    
     font-family: monospace;
-    box-shadow: -1px -17px 40px 5px rgba(15,83,161,0.90) inset;
 }
