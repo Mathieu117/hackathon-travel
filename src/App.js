@@ -6,13 +6,10 @@ import Homepage from "./components/Homepage";
 import CardDetail from "./components/CardDetail";
 import Planet from "./components/Planet";
 import PropositionList from "./pages/PropositionList";
-import SearchBar from "./components/SearchBar";
 
 function App() {
   return (
     <div className="App">
-      <Header />
-
       <Planet />
       <Header />
       <PropositionList />

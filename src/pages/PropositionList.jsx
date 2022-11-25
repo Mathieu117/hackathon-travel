@@ -16,7 +16,7 @@ const PropositionList = () => {
     }
 
     return (
-    <div>
+    <div className='global'>
         <div className="propo">
 
            <Search searchValue={searchValue} setSearchValue={setSearchValue} />

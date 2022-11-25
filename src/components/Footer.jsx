@@ -13,6 +13,7 @@ const Footer = () => {
             <Route  path="/Contactus" element={<Contactus/>}/>
             
         </Routes>
+        
         <div className='footer'>
             <div className='list'>
                 <ul className='contact'><h3>Contact</h3>

@@ -8,7 +8,7 @@ const Contactus = () => {
   return (
     
    
-   
+    <div className='contactus'>
     
     <div className='form'>
 
@@ -39,7 +39,7 @@ const Contactus = () => {
         </button>
       </div>
     </div>
-        
+        </div>
   );
 };
 
