@@ -1,6 +1,5 @@
 .galaxy{
     background-image: url(../images/interieur-du-salon-canape-tv-appartement_107791-3226.webp);
-    background-position: cente;
     background-repeat: no-repeat;
     background-size: cover;
     height: 700px;
@@ -9,6 +8,16 @@
     height: 65px;
 }
 
+.bar{
+    display: flex;
+    font-family: 'Dancing Script', cursive;
+}
+ 
+.bar h1{
+    color: white;
+    margin-top: 1%;
+    margin-left: 30%;
+}
 
 .Planete{
     display: flex;

@@ -1,8 +1,5 @@
 import "./App.css";
-
 import Planet from "./components/Planet";
-
-
 import PropositionList from "./pages/PropositionList";
 import Footer from "./components/Footer";
 
