@@ -113,7 +113,7 @@ flex-direction: row;
 .back:hover, .send:hover, .link:hover{
     transform: scale(105%);
     transition-duration: 0.2s;
-    
+    cursor: pointer;
 }
 
 .contactus{
