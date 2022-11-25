@@ -1,5 +1,6 @@
 /* .galaxy{
-    background-image: url(./agence-voyage-insolite.jpg);
+    background-image: url(./cinema-2.jpg);
+    
 }
 
 .Planete{
@@ -11,23 +12,21 @@
 
 .Terre{
     position: absolute;
-    top: 40%;
-    left: 46%;
-    transform:rotate(23deg) translate(-50%, -50%);
-    width: 80px;
-    height: 80px;
+    top: 10%;
+    left: 42%;
+    width: 250px;
+    transform: rotate(23deg);
+    height: 250px;
     border-radius: 50%;
     background-image: url(../images/depositphotos_282704904-stock-illustration-worldmap-with-airplane-trace-vector.jpg);
     background-size: cover;
     background-repeat: repeat-x;
     animation: animateTerre 30s linear infinite;
     box-shadow: inset 30px -4px 15px 5px rgba(0, 0, 0, 0.653);
-    filter: grayscale(20%) brightness(86%) saturate(195%);
-    
 }
 
-/* .Terre:hover{
-    transform: scale(1.2);
+.Terre:hover{
+    transform: scale(1.4) ;
     transition: all 0.5s ease-in-out;
 } */
 
