@@ -31,8 +31,8 @@ const PropositionList = () => {
                 return <div className='card' onClick={() => openPopUp(index)}><img src={e.affiche} alt="affiche" /></div>
                 
             })} 
-            {/* {open ? <CardDetail item={open} onClose={() => setOpen(null)}/> : null}
- */}
+            {open ? <CardDetail item={open} onClose={() => setOpen(null)}/> : null}
+
         </div>
     );
 };
