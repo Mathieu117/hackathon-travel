@@ -5,7 +5,7 @@
     
 }
 .choice {
-    margin-top: 50px;
+    margin: 7%;
     display: flex;
     flex-wrap: wrap;
     gap: 40px;
@@ -16,7 +16,8 @@
     width: 250px;
     height: 350px;
     border-radius: 20px;
-    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 10px;
+    margin: 1%;
+    box-shadow: rgba(0, 0, 0, 0.56) 11px 6px 19px 8px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -25,4 +26,6 @@
 .choice .card:hover {
  transform: scale(1.1) ;
  pointer-events: auto ;
+ cursor:pointer;
+ transition-duration: 0.5s;
 }

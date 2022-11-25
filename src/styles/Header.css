@@ -1,0 +1,7 @@
+.navBar{
+    background-color: rgb(52, 52, 52);
+    height: 70px;
+    display: flex;
+    
+    font-family: monospace;
+}
