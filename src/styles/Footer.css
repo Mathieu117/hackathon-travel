@@ -1,10 +1,13 @@
 .footer{
-    background: linear-gradient(45deg, rgba(60,89,175,1) 0%, rgba(53,84,176,1) 18%, rgba(40,71,159,1) 68%, rgba(40,79,198,1) 100%); 
+    background: linear-gradient(45deg, rgb(9, 45, 151) 0%, rgb(34, 63, 150) 18%, rgb(37, 85, 214) 68%, rgb(88, 128, 245) 100%);
     margin-top: 60px;
     bottom: 0;
+    height: 150px;
 }
 h3{
 color: white;
+margin-top: 15px;
+margin-bottom: 15px
 }
 
 ul{
@@ -56,18 +59,21 @@ flex-direction: row;
     height: 70px;
     width: 70%;
     margin-left: 80px;
+    border-radius: 10px;
 }
 
 .link{
-    border-radius: 5px;
+    border-radius: 25px;
     background-color: white;
+    border: black;
     margin: 20px;
     width: 100%;
     
 }
 
 .form {
-    border: 1px solid black;
+    background: linear-gradient(45deg, rgb(9, 45, 151) 0%, rgb(34, 63, 150) 18%, rgb(37, 85, 214) 68%, rgb(88, 128, 245) 100%);
+    border: 1px solid white;
     width: 40%;
     display: flex;
     flex-direction: column;
@@ -75,13 +81,16 @@ flex-direction: row;
     margin-left: 33%;
     gap: 6px;
     margin-top: 60px;
-    
+    border-radius: 25px;
+    color: white;
 }
 
 .twobutton{
     display: flex;
     justify-content: center;
     margin: 8px;
+    gap: 70%;
+ 
 }
 .form-group{
     display: flex;
@@ -91,8 +100,18 @@ flex-direction: row;
 }
 .send{
     color: green;
+    border-radius: 5px;
+    background-color: white;
 }
 
 .back{
     color: red;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.back:hover, .send:hover, .link:hover{
+    transform: scale(105%);
+    transition-duration: 0.2s;
+    
 }

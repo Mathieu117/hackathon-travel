@@ -23,8 +23,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    min-height: 60vh;
     transform-style: preserve-3d;
-} 
+}
+
 
 .Terre{
     margin-top: 15px;
@@ -53,25 +55,3 @@
         background-position: 1725px 0;
     }
 }
-
-
-
-/*.avion span{
-    background-color: rgb(182, 182, 182);
-    position: absolute;
-    top: 100px;
-    left: 100px;
-    transform-style: preserve-3d;
-    transform-origin: center;
-    animation: animateAvion linear infinite;
-    transform:rotateY(calc(var(--i)* calc(360deg / 11))) translateZ(200deg) ;
-}
-
-@keyframes animateAvion
-{
-    0%{
-        transform: perspective(1000px) rotateY(360deg) rotateX(15deg);
-    }
-    
-}*/
-
