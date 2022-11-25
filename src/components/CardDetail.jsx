@@ -10,12 +10,13 @@ const Card = ({item, onClose}) => {
                 </div>
                 <div className='content-right'>
                     <div className='title'><h2>{item.serie}</h2></div>                 
-                    <div className='country'><h3>{item.country}</h3></div> 
                     <div className='city'><h3>{item.city}</h3></div> 
+                    <div className='country'><h3>{item.country}</h3></div> 
+
+                    <div className="imageCity"><img src={item.pic} alt="city"/></div>
                     <div className='airbnb'>
-                    <a href={item.airbnb}>
-                    Vers le voyage
-                  </a>
+                    <a href={item.airbnb}>Réservez un logement</a> 
+                     
                     </div>
                 </div>
                 <div className='closeButton' >

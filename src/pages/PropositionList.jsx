@@ -1,10 +1,6 @@
 import React from 'react';
 import "../styles/PropositionList.css"
 import array from '../components/BaseDonnées'
-<<<<<<< HEAD
-=======
-import Popup from 'reactjs-popup'; 
->>>>>>> 144a607a9021dff6b5b212963711e71b64c1983f
 import { useState } from 'react';
 import Search from '../components/Search';
 import CardDetail from '../components/CardDetail'
