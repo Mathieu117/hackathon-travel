@@ -15,7 +15,7 @@
 
 .titre h1{
     display: flex;
-    margin-top: 1%;
+    margin-top: 3%;
     justify-content: center;
     color: beige;
     font-family: 'Dancing Script', cursive;
@@ -30,8 +30,9 @@
 }
 
 .Terre{
-    width: 200px;
-    height: 200px;
+    margin-top: 1%;
+    width: 160px;
+    height: 160px;
     border-radius: 50%;
     background-image: url(../images/depositphotos_282704904-stock-illustration-worldmap-with-airplane-trace-vector.jpg);
     background-size: cover;
