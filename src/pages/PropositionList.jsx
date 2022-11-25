@@ -1,7 +1,7 @@
 import React from 'react';
+
 import "../styles/PropositionList.css"
 import array from '../components/BaseDonnées'
-import Popup from 'reactjs-popup'; 
 import { useState } from 'react';
 import Search from '../components/Search';
 import CardDetail from '../components/CardDetail'
@@ -16,9 +16,12 @@ const PropositionList = () => {
     }
 
     return (
-    <div> 
+    <div>
+        <div className="propo">
+
+           <Search searchValue={searchValue} setSearchValue={setSearchValue} />
+        </div>
         <div className='choice'>
-           <span ><Search searchValue={searchValue} setSearchValue={setSearchValue} /></span>
             {array
             .filter((e) => {
              return e.serie.toLocaleLowerCase().includes(searchValue.toLocaleLowerCase())

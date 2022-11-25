@@ -1,7 +1,6 @@
 import "./App.css";
 
 import Header from "./components/Header";
-// import NewHeader from "./components/NewHeader";
 import Homepage from "./components/Homepage";
 import CardDetail from "./components/CardDetail";
 import Planet from "./components/Planet";
