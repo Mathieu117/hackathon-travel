@@ -1,6 +1,6 @@
 .footer{
     background: linear-gradient(45deg, rgb(9, 45, 151) 0%, rgb(34, 63, 150) 18%, rgb(37, 85, 214) 68%, rgb(88, 128, 245) 100%);
-    margin-top: 60px;
+  
     bottom: 0;
     height: 150px;
 }
@@ -14,7 +14,7 @@ ul{
     width: 100%;
 }
 .list {
-    margin: 5px;
+   
     Display: flex;
     flex-direction: row;
     list-style: none;
@@ -80,7 +80,7 @@ flex-direction: row;
     justify-content: center;
     margin-left: 33%;
     gap: 6px;
-    margin-top: 60px;
+
     border-radius: 25px;
     color: white;
 }
@@ -114,4 +114,8 @@ flex-direction: row;
     transform: scale(105%);
     transition-duration: 0.2s;
     
+}
+
+.contactus{
+    background-color: #76dcff;
 }

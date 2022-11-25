@@ -13,13 +13,13 @@ const Contactus = () => {
     <div className='form'>
 
       <div className="form-group">
-        <label htmlFor="nom">Nom</label>
-        <input className="form-control" id="nom" />
+        <label htmlFor="nom"></label>
+        <input className="form-control" id="nom" placeholder='Nom'/>
       </div>
 
       <div className="form-group">
 
-        <label htmlFor="email">Adresse mail</label>
+        <label htmlFor="email"></label>
 
         <input
           type="email"
@@ -39,7 +39,7 @@ const Contactus = () => {
         </button>
       </div>
     </div>
-        
+   
   );
 };
 
