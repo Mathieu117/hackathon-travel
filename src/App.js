@@ -1,9 +1,9 @@
 import "./App.css";
-// import { Routes, Route } from "react-router-dom";
-import PropositionList from "./Pages/PropositionList";
+import Header from "./components/Header"
 import Footer from "./components/Footer";
-import Header from "./components/Header";
-import Planet from "./components/Planet";
+import NewHeader from "./components/NewHeader";
+import Planet from "./components/Planet"
+import PropositionList from "./pages/PropositionList";
 
 
 
@@ -12,13 +12,16 @@ function App() {
   return (
     <div className="App">
       <Header />
+      <NewHeader/>
       <Planet />
+      
+
       <PropositionList />
 
       {/* <Routes>
-        <Route path="/proposition/:id" element={<Proposition />} /> */}
-      {/* </Routes> */} 
-      <Footer />
+        <Route path="/proposition/:id" element={<Proposition />} />
+      </Routes> */}
+
     </div>
   );
 
