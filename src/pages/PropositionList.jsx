@@ -11,7 +11,7 @@ const PropositionList = () => {
     const [open, setOpen] = useState()
 
     const openPopUp = (index) => {
-        setOpen(array[index])
+        setOpen(array.filter((e, index) => e.serie.toLocaleLowerCase().includes(searchValue.toLocaleLowerCase()))[index])
     }
 
     return (
@@ -22,7 +22,7 @@ const PropositionList = () => {
         </div>
         <div className='choice'>
             {array
-            .filter((e) => {
+            .filter((e, index) => {
              return e.serie.toLocaleLowerCase().includes(searchValue.toLocaleLowerCase())
 })
             .map((e,index) => {
