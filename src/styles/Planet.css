@@ -1,0 +1,58 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+
+.galaxy{
+    background-image: url(../images/interieur-du-salon-canape-tv-appartement_107791-3226.webp);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    height: 700px;
+}
+.galaxy img{
+    height: 50px;
+}
+
+.titre h1{
+    
+    font-size: 70px;
+    display: flex;
+    margin-top: 1%;
+    justify-content: center;
+    color: beige;
+    font-family: 'Dancing Script', cursive;
+}
+
+
+.Planete{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform-style: preserve-3d;
+}
+
+
+.Terre{
+    margin-top: 1.5%;
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    background-image: url(../images/depositphotos_282704904-stock-illustration-worldmap-with-airplane-trace-vector.jpg);
+    background-size: cover;
+    background-repeat: repeat-x;
+    animation: animateTerre 30s linear infinite;
+    box-shadow: inset 30px -4px 15px 5px rgba(0, 0, 0, 0.653);
+    transform: rotate(23deg);
+}
+
+
+
+@keyframes animateTerre
+{
+    0%{
+        background-position: 0 0;
+    }
+    100%{
+        background-position: 1725px 0;
+    }
+}

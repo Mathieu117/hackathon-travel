@@ -1,0 +1,120 @@
+.footer{
+    background: linear-gradient(45deg, rgb(9, 45, 151) 0%, rgb(34, 63, 150) 18%, rgb(37, 85, 214) 68%, rgb(88, 128, 245) 100%);
+    
+    bottom: 0;
+    height: 150px;
+}
+h3{
+color: white;
+margin-top: 15px;
+margin-bottom: 15px
+}
+
+ul{
+    width: 100%;
+}
+.list {
+   
+    Display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: center;
+    gap: 20%;
+    color: white;
+    
+}
+
+.img-reseaux{
+    width: 50px;
+   border-radius:4px;
+  margin-left: 14%;
+    
+}
+
+.contact, .reseaux, .suggestions{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.li-contact {
+    Display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 20%;
+    margin-top: 5px;
+}
+
+.reseaux {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.allimg{
+display: flex;
+flex-direction: row;
+}
+.input{
+    height: 70px;
+    width: 70%;
+    margin-left: 80px;
+    border-radius: 10px;
+}
+
+.link{
+    border-radius: 25px;
+    background-color: white;
+    border: black;
+    margin: 20px;
+    width: 100%;
+    
+}
+
+.form {
+    background: linear-gradient(45deg, rgb(9, 45, 151) 0%, rgb(34, 63, 150) 18%, rgb(37, 85, 214) 68%, rgb(88, 128, 245) 100%);
+    border: 1px solid white;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 33%;
+    gap: 6px;
+    border-radius: 25px;
+    color: white;
+}
+
+.twobutton{
+    display: flex;
+    justify-content: center;
+    margin: 8px;
+    gap: 70%;
+ 
+}
+.form-group{
+    display: flex;
+    justify-content: center;
+    gap:5px;
+    margin: 8px;
+}
+.send{
+    color: green;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.back{
+    color: red;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.back:hover, .send:hover, .link:hover{
+    transform: scale(105%);
+    transition-duration: 0.2s;
+    
+}
+.contactus{
+    gap: 20px;
+    background-color: #76dcff;
+}

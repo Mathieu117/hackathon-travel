@@ -1,0 +1,6 @@
+.navBar{
+   background-image: url('./Header.PNG');
+    height: 120px;
+    display: flex;
+    background-size: contain;
+}
