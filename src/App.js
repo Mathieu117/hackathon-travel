@@ -2,9 +2,10 @@ import "./App.css";
 // import { Routes, Route } from "react-router-dom";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
-import Planet from "./components/Planet";
-// import { Routes, Route } from "react-router-dom";
+// import NewHeader from "./components/NewHeader";
+// import Planet from "./components/Planet";
 import PropositionList from "./pages/PropositionList";
+import SearchBar from "./components/SearchBar";
 
 
 

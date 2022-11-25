@@ -1,11 +1,10 @@
 import React from 'react';
 import "../styles/PropositionList.css"
 import array from '../components/BaseDonnées'
+import Popup from 'reactjs-popup'; 
 import { useState } from 'react';
-import CardDetail from "../components/CardDetail"
 import Search from '../components/Search';
-
-
+import CardDetail from '../components/CardDetail'
 const PropositionList = () => {
     const [searchValue, setSearchValue] = useState ("")
     
@@ -17,23 +16,19 @@ const PropositionList = () => {
     }
 
     return (
+    <div> 
         <div className='choice'>
-            <Search searchValue={searchValue} setSearchValue={setSearchValue} />
-            
-
-          
-
-            {array.filter((e) => {
-                return e.serie.toLocaleLowerCase().includes(searchValue.toLocaleLowerCase())
-            })
-            
-            .map((e, index) => {
+           <span ><Search searchValue={searchValue} setSearchValue={setSearchValue} /></span>
+            {array
+            .filter((e) => {
+             return e.serie.toLocaleLowerCase().includes(searchValue.toLocaleLowerCase())
+})
+            .map((e,index) => {
                 return <div className='card' onClick={() => openPopUp(index)}><img src={e.affiche} alt="affiche" /></div>
-                
-            })} 
-            {open ? <CardDetail item={open} onClose={() => setOpen(null)}/> : null}
-
+            })}
+            {open ? <CardDetail item={open} onClose={()=> setOpen(null)} /> : null}
         </div>
+     </div>
     );
 };
 
