@@ -3,7 +3,7 @@ import "../styles/PropositionList.css"
 import array from '../components/BaseDonnées'
 import { useState } from 'react';
 import CardDetail from "../components/CardDetail"
-
+import Search from '../components/Search';
 
 
 const PropositionList = () => {
