@@ -2,8 +2,7 @@ import "./App.css";
 // import { Routes, Route } from "react-router-dom";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
-// import NewHeader from "./components/NewHeader";
-// import Planet from "./components/Planet";
+import Planet from "./components/Planet";
 import PropositionList from "./pages/PropositionList";
 import SearchBar from "./components/SearchBar";
 

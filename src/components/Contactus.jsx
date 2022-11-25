@@ -33,8 +33,8 @@ const Contactus = () => {
       <input className='input' type="text" placeholder='Votre message' />
 
       <div className="twobutton">
-      <Link   to="/" className='back'><button>Retour</button></Link>
-        <button className="send" type="submit" onClick={() => {alert('Nous vous remercions de votre message');}}>
+      <Link   to="/" ><button className='back'>Retour</button></Link>
+        <button className="send" type="submit" onClick={() => {alert('Nous vous remercions de votre message. A bientot ! ');}}>
           Envoyer
         </button>
       </div>

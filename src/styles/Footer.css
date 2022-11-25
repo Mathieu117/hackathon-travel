@@ -62,11 +62,12 @@ flex-direction: row;
 }
 
 .link{
-    border-radius: 5px;
+    border-radius: 25px;
     background-color: white;
+    border: black;
     margin: 20px;
     width: 100%;
-
+    
 }
 
 .form {
@@ -78,13 +79,15 @@ flex-direction: row;
     margin-left: 33%;
     gap: 6px;
     margin-top: 60px;
-    
+    border-radius: 25px;
 }
 
 .twobutton{
     display: flex;
     justify-content: center;
     margin: 8px;
+    gap: 70%;
+ 
 }
 .form-group{
     display: flex;
@@ -94,8 +97,18 @@ flex-direction: row;
 }
 .send{
     color: green;
+    border-radius: 5px;
+    background-color: white;
 }
 
 .back{
     color: red;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.back:hover, .send:hover, .link:hover{
+    transform: scale(105%);
+    transition-duration: 0.2s;
+    
 }
