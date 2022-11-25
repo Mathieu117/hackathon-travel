@@ -1,0 +1,15 @@
+.propo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+
+.searchBar{
+    width: 500px;
+    height: 50px;
+    text-align: center;
+    
+}
