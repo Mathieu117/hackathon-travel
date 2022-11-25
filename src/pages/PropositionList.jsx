@@ -1,9 +1,6 @@
 import React from 'react';
 import "../styles/PropositionList.css"
 import array from '../components/BaseDonnées'
-
-import Popup from 'reactjs-popup'; 
-
 import { useState } from 'react';
 import CardDetail from "../components/CardDetail"
 
