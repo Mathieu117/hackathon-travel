@@ -131,7 +131,7 @@ const array= [
     {id : 17,
     country : 'USA',
     city : 'Baltimore',
-    pic : 'https://www.visitmaryland.org/sites/default/files/styles/editorial_hero/public/2020-08/Inner-Harbor-%40jarasaurus-Instagram-1190x793.jpg?h=b6db544b&itok=7R8KTin-',
+    pic : 'https://cdn-europe1.lanmedia.fr/var/europe1/storage/images/europe1/international/etats-unis-etat-d-urgence-et-couvre-feu-decretes-a-baltimore-935622/18763602-1-fre-FR/Etats-Unis-etat-d-urgence-et-couvre-feu-decretes-a-Baltimore.jpg',
     serie : 'The Wire',
     affiche : 'https://fr.web.img4.acsta.net/pictures/21/02/11/13/49/0944070.jpg',
     airbnb : 'https://www.airbnb.fr/s/Baltimore/homes' },

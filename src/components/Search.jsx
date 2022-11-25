@@ -7,7 +7,7 @@ function Search({searchValue, setSearchValue}) {
             <input className='searchBar'
                 value = {searchValue}
                 type = "text"
-                placeholder= "Vers l'infini et au delà...tapez votre recherche"
+                placeholder= "Tapez votre recherche...vers l'infini et au delà"
                 onChange = {(e) => setSearchValue(e.target.value)}
                 />
         </div>
