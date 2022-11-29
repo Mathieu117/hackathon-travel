@@ -1,33 +1,56 @@
 .footer{
-    background: linear-gradient(45deg, rgb(9, 45, 151) 0%, rgb(34, 63, 150) 18%, rgb(37, 85, 214) 68%, rgb(88, 128, 245) 100%);
-    
+    background-image: url('../Img/18303721.jpg');
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
     bottom: 0;
-    height: 150px;
+    padding-bottom: 10%;
 }
+
 h3{
-color: white;
-margin-top: 15px;
-margin-bottom: 15px
+    color: white;
+    margin: 4%;
+    display: flex;
+    justify-content:center;
 }
 
 ul{
     width: 100%;
+    border-radius: 10px;
+    margin: 1%;
 }
 .list {
-   
-    Display: flex;
-    flex-direction: row;
+    
+    width: 100%;
+    display: flex;
+    flex-direction: column;
     list-style: none;
     justify-content: center;
-    gap: 20%;
+    gap: 10%;
     color: white;
     
 }
 
 .img-reseaux{
-    width: 50px;
-   border-radius:4px;
-  margin-left: 14%;
+    width: 1%;
+    height: 10%;
+    border-radius:4px;
+    display: flex;
+    justify-content: center;
+   
+    
+}
+
+.allimg{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2%;
+    height: 100%;
+    width: 100%;
+    margin: 15% 2% 0% 0%;
     
 }
 
@@ -44,16 +67,13 @@ ul{
     justify-content: center;
     gap: 20%;
     margin-top: 5px;
+    background-color: blue
 }
 
 .reseaux {
     display: flex;
     justify-content: center;
-    flex-direction: column;
-}
-.allimg{
-display: flex;
-flex-direction: row;
+    flex-direction: row
 }
 .input{
     height: 70px;
@@ -63,11 +83,18 @@ flex-direction: row;
 }
 
 .link{
-    border-radius: 25px;
+    border-radius: 5px;
     background-color: white;
     border: black;
-    margin: 20px;
-    width: 100%;
+    width: 50%;
+    height: 15%;
+    margin: 25%;
+    background-color: #0c6e8f;
+    color: white;
+    font-size: 5vw;
+    -webkit-box-shadow: 0px 0px 0px 5px #A0A0A0, inset 0px -10px 27px -8px #A31925, 1px 50px 0px 50px rgba(0,0,0,0); 
+    box-shadow: 0px 0px 0px 5px #A0A0A0, inset 0px -10px 27px -8px #A31925, 1px 50px 0px 50px rgba(0,0,0,0);
+    
     
 }
 
