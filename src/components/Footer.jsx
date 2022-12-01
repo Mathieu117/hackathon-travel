@@ -18,13 +18,13 @@ const Footer = () => {
             <div className='list'>
                 <ul className='reseaux'>
                 <div className='allimg'> 
-                <a href="//www.facebook.com/">
+                <a className="icon" href="//www.facebook.com/">
                 <img  className='img-reseaux'src="https://cdn-icons-png.flaticon.com/512/5968/5968764.png" alt="FB"/>
                 </a>
-                <a href="//www.instagram.com/">
+                <a className="icon" href="//www.instagram.com/">
                 <img className='img-reseaux' src="https://cdn-icons-png.flaticon.com/512/174/174855.png" alt="INSTA" />
                 </a>
-                <a href="//twitter.com/">
+                <a className="icon" href="//twitter.com/">
                 <img className='img-reseaux' src="https://cdn-icons-png.flaticon.com/512/124/124021.png" alt="Twitter" />
                 </a>
                 </div>
